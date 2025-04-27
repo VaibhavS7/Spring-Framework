@@ -2,6 +2,8 @@
 
 Spring is an open-source framework that provides a comprehensive programming and configuration model for modern Java-based enterprise applications. The core module of Spring, also known as the "Spring Core" module, is at the heart of the framework and provides the fundamental functionality for dependency injection (DI), inversion of control (IoC) and Bean Scopes.
 
+Spring Core, the base of the Spring Framework, provides a model for configuring Java applications. Key concepts include **Beans** (Java objects managed by Spring), **Inversion of Control (IoC)** (Spring managing bean lifecycles and dependencies), and **Dependency Injection (DI)** (Spring providing bean dependencies). The **Spring container** (specifically an ApplicationContext) creates and manages these beans. Spring also offers **Aspect-Oriented Programming (AOP)** for handling cross-cutting concerns, an event model for decoupled communication using ApplicationEvent and listeners, abstractions for Data Access and Transactions, and utilities for Task Execution and Scheduling.
+
 ### Overview of versions of Spring Framework
   - Spring 2.5 (2007): support for annotations was introduced, reducing the need for XML configurations.
   - Spring 3.0 (2009): Introduction of Spring Expression language, profile for environment-specific configurations.
